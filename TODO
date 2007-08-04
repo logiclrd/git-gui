@@ -1,3 +1,26 @@
+0.9.0 plan:
+
+  http://article.gmane.org/gmane.comp.version-control.git/54303
+
+ * Automatically refetch tracking branches in merge
+
+ * Text mode log viewer:
+   `git-log`, `git-log -g`
+
+ * File monitor on WinNT (to avoid costly Rescan on large projects)
+
+ * Remove more porcelain shell dependencies:
+   `git-merge`, `git-repack`, `git-remote prune`
+
+ * UI for cherry-pick/revert
+ * UI for rebase -i
+ * Generational GC for 'Compress Database'
+ * Integration with git-stash
+ * Hunk splitting/selection
+ * UI for git-tag
+ * Push specific tags by name (rather than by --tags)
+ * Pull from arbitrary URL/branch pair
+
 Items outstanding:
 
  * Add file to .gitignore or info/excludes.
