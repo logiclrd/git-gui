@@ -2,12 +2,6 @@ Items outstanding:
 
  * Add file to .gitignore or info/excludes.
 
- * Allow user to define keyboard shortcuts for frequently used fetch
-   or merge operations.  Or maybe just define a keyboard shortcut
-   for default fetch/default merge of current branch is enough;
-   but I do know a few users who merge a couple of common branches
-   also into the same branch so one default isn't quite enough.
-
  * Better organize fetch/push/pull console windows.
 
  * Clone UI (to download a new repository).
@@ -37,25 +31,9 @@ Items outstanding:
  * Move/save our settings to ~/.gitgui-config and .git/gitgui-config,
    not to the master user/repository configuration files.
 
- * Better browser icons/interface.
-
- * Blame window doesn't save/restore geometry.  Alex Resien would
-   like it do so, or at least have a more reasonable default one.
-
 Known bugs:
 
  * Geometry restore on resized virtual desktop is horrible; e.g.
    if I have git-gui on my external monitor and then disconnect the
    monitor and later restart git-gui, it opens in an unreachable
    part of my desktop. gitk has the same wart.
-
- * I've seen a question mark icon in the browser before in one
-   of my work repos.  I'm not sure why it had a question mark
-   icon.  It also had no name, and couldn't be opened in the
-   blame viewer.
-
- * git-gui sometimes just closes on Windows with no error message.
-   I'm not sure what the problem is here.  I suspect the wish
-   process is just terminating due to a segfault or something,
-   as the do_quit proc in git-gui doesn't run.  It often seems to
-   occur while writing a commit message in the buffer.  Odd.
