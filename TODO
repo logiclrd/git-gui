@@ -48,6 +48,9 @@ Items outstanding:
  * Allow user to recover an unreachable object in verify database.
    (laj - on #git).
 
+ * Launch the user's editor (core.editor) for the commit message.
+   (Karl Hasselström <kha@treskal.com>)
+
  * Clicking on file list header in main window shows entire patch,
    for all files.
 
@@ -55,6 +58,9 @@ Items outstanding:
    not to the master user/repository configuration files.
 
 Known bugs:
+
+ * Diff viewer doesn't show files in proper character encoding.
+   Blame viewer probably has the same issue.
 
  * Geometry restore on resized virtual desktop is horrible; e.g.
    if I have git-gui on my external monitor and then disconnect the
