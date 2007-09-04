@@ -66,8 +66,3 @@ Known bugs:
    if I have git-gui on my external monitor and then disconnect the
    monitor and later restart git-gui, it opens in an unreachable
    part of my desktop. gitk has the same wart.
-
- * Merge pops up a dialog that always locks git-gui on ion, as
-   ion is opening the dialog in the same frame as the main window.
-   Merging again without closing that window leads to a tcl error.
-   (cehteh on #git)
