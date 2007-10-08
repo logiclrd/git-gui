@@ -27,8 +27,6 @@ Items outstanding:
 
  * Better organize fetch/push/pull console windows.
 
- * Clone UI (to download a new repository).
-
  * Remotes editor (for .git/config format only).
 
  * Show a shortlog of the last couple of commits in the main window,
@@ -66,3 +64,8 @@ Known bugs:
    if I have git-gui on my external monitor and then disconnect the
    monitor and later restart git-gui, it opens in an unreachable
    part of my desktop. gitk has the same wart.
+
+ * Restoring split pane dividers on windows larger than 440 pixels
+   doesn't work right as the geometry of the window is not processed
+   by Tk until after an update event, so the divider will refuse to
+   adjust to the desired location.
