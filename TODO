@@ -1,4 +1,5 @@
-0.9.0 plan:
+Possible future improvements:
+  (used to be slated for 0.9.0, but totally missed that)
 
   http://article.gmane.org/gmane.comp.version-control.git/54303
 
@@ -69,3 +70,8 @@ Known bugs:
    doesn't work right as the geometry of the window is not processed
    by Tk until after an update event, so the divider will refuse to
    adjust to the desired location.
+
+ * The first try to clone errored out because of an incorrect
+   URL. It would have been nice if we had been sent back to the
+   "Clone repository" window so that we could fix the error. But
+   instead git-gui terminated and we had to type in everything again.
